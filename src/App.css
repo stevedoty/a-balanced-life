@@ -7,55 +7,49 @@
     background-color: lightgrey;
 }
     .navbar{
+        width: 100%;
+        height: 50px;
         background-color: yellow;
-        height: 100px;
-    }
-    .logo {
-      height: 10vmin;
-      pointer-events: none;
     }
     .landing-page{
         width: 100%;
     }
-    .landing-page--picture{
-        width: 45%;
+    .landing-page--image{
+        width: 50%;
         float: left;
     }
-    .mission-statement{
-        width: 45%;
+    .landing-page--list{
         float: left;
+        text-align: left;
     }
 
-.body{}
-    .gallery{}
-    .gallery-list{
-        background-color: blue;
-        border: 2px solid red;
+
+.body{
+
+}
+    .card{
         width: 100%;
-        height: 100px;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        border: 1px solid rgba(0,0,0,.125)
     }
-    .gallery-item{
+    .card-header{
+        padding-left: 10px;
+        margin-bottom: 0;
+        background-color: rgba(0,0,0,.03);
+        border-bottom: 1px solid rgba(0,0,0,.125);
+    }
+    .nav-item{
+        background-color: orange;
         float: left;
-        height: 100px;
-        width: 100px;
+        padding: 10px;
     }
-    .gallery-item--thumbnail{
-
-    }
-    .product-view{
-        height: 400px;
-        width: 100%;
-    }
-    .product-view--picture{
-        height: 400px;
-        width: 400px;
-        float: left;
-    }
-
 
 .footer{
     width: 100%;
-    height: 200px;
+    height: 100px;
     float: right;
     border: 2px solid blue;
     background-color: orange;

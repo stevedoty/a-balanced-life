@@ -1,10 +1,11 @@
 import React from 'react'
-import Contacts from './contacts.js'
 
 const Footer = () => {
     return (
         <div className="footer">
-           <Contacts />
+            link1
+            link2
+            link3
         </div>
     )
 }
