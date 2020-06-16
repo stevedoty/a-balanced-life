@@ -8,23 +8,6 @@ const Body = () => {
 
             <Accordion defaultActiveKey="0">
                     <Card className="card">
-                        <Card.Header>
-                            <Accordion.Toggle as={Button} variant="link" eventKey="0">
-
-                                    number1
-
-                            </Accordion.Toggle>
-                        </Card.Header>
-                            <Accordion.Collapse eventKey="0">
-                                <Card.Body>
-
-                                              HELLO
-
-                                </Card.Body>
-                            </Accordion.Collapse>
-                    </Card>
-
-                    <Card className="card">
                           <Card.Header>
                                 <Accordion.Toggle as={Button} variant="link" eventKey="1">
 
