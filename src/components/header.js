@@ -1,6 +1,14 @@
 import React from 'react'
 import {Nav, Card, ListGroup} from 'react-bootstrap'
 import logo from '../logo.svg'
+import home from '../icons/home.svg'
+import search from '../icons/search.svg'
+import mouth from '../icons/mouth.svg'
+import bathtub from '../icons/bathtub.svg'
+import misc from '../icons/misc.svg'
+import cart from '../icons/cart.svg'
+import phone from '../icons/phone.svg'
+import letter from '../icons/letter.svg'
 
 const Header = () => {
     return (
@@ -8,25 +16,28 @@ const Header = () => {
             <div className="navbar">
                 <Nav>
                     <Nav.Item>
-                        HOME
+                        <img className="navbar--logo" src={home}/>
                     </Nav.Item>
                     <Nav.Item>
-                        SEARCH
+                        <img className="navbar--logo" src={search}/>
                     </Nav.Item>
                     <Nav.Item>
-                        DENTAL
+                        <img className="navbar--logo" src={mouth}/>
                     </Nav.Item>
                     <Nav.Item>
-                        BATH
+                        <img className="navbar--logo" src={bathtub}/>
                     </Nav.Item>
                     <Nav.Item>
-                        MISC
+                        <img className="navbar--logo" src={misc}/>
                     </Nav.Item>
                     <Nav.Item>
-                        CART
+                        <img className="navbar--logo" src={cart}/>
                     </Nav.Item>
                     <Nav.Item>
-                        CONTACT
+                        <img className="navbar--logo" src={phone}/>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <img className="navbar--logo" src={letter}/>
                     </Nav.Item>
                 </Nav>
             </div>
