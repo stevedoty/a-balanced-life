@@ -16,28 +16,28 @@ const Header = () => {
             <div className="navbar">
                 <Nav>
                     <Nav.Item>
-                        <img className="navbar--logo" src={home}/>
+                        <img className="navbar--icon icon" src={home}/>
                     </Nav.Item>
                     <Nav.Item>
-                        <img className="navbar--logo" src={search}/>
+                        <img className="navbar--icon icon" src={search}/>
                     </Nav.Item>
                     <Nav.Item>
-                        <img className="navbar--logo" src={mouth}/>
+                        <img className="navbar--icon icon" src={mouth}/>
                     </Nav.Item>
                     <Nav.Item>
-                        <img className="navbar--logo" src={bathtub}/>
+                        <img className="navbar--icon icon" src={bathtub}/>
                     </Nav.Item>
                     <Nav.Item>
-                        <img className="navbar--logo" src={misc}/>
+                        <img className="navbar--icon icon" src={misc}/>
                     </Nav.Item>
                     <Nav.Item>
-                        <img className="navbar--logo" src={cart}/>
+                        <img className="navbar--icon icon" src={cart}/>
                     </Nav.Item>
                     <Nav.Item>
-                        <img className="navbar--logo" src={phone}/>
+                        <img className="navbar--icon icon" src={phone}/>
                     </Nav.Item>
                     <Nav.Item>
-                        <img className="navbar--logo" src={letter}/>
+                        <img className="navbar--icon icon" src={letter}/>
                     </Nav.Item>
                 </Nav>
             </div>
