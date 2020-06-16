@@ -20,10 +20,13 @@ const Header = () => {
                         BATH
                     </Nav.Item>
                     <Nav.Item>
-                        BATH
+                        MISC
                     </Nav.Item>
                     <Nav.Item>
-                        BATH
+                        CART
+                    </Nav.Item>
+                    <Nav.Item>
+                        CONTACT
                     </Nav.Item>
                 </Nav>
             </div>
